@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    overflow: hidden; 
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.video-container {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 10px;
+    padding: 20px 20px;
+    font-size: 16px;
+    background-color: pink;
+    cursor: pointer;
+}
+
+#noButton {
+    position: absolute;
+}
